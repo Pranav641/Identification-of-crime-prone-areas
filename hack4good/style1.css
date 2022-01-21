@@ -1,0 +1,109 @@
+*
+{
+	margin: 0px;
+}
+
+body
+{
+	background: url('https://media.istockphoto.com/photos/technology-network-picture-id1037573870?k=20&m=1037573870&s=170667a&w=0&h=UOodtsGdzflMNg940thTOU-OfWsjK-QV7bTpYoMMzpo=') no-repeat fixed;
+	background-size: cover;
+	color: white;
+}
+
+.header
+{
+	height: 70px;
+	background-color: #333;
+	padding: 15px;
+
+}
+.menubtns
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.heading2
+{
+  text-align: center;
+  background-color: black;
+  padding: 30px;
+  text-shadow: 5px 5px 10px red;
+  height: 50px;
+}
+
+.btn1
+{
+	margin-top: 120px;
+}
+.btn2
+{
+	margin-bottom: 220px;
+}
+
+#btns
+{
+	margin-left: 15vw;
+}
+
+.pushable {
+	margin: 10px;
+	margin-top: 20px;
+  background: black;
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #5089B0;
+  color: white;
+  font-weight: bold;
+  transform: translateY(-6px);
+  text-shadow: 5px 5px 10px red;
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+
+.parallax
+{
+	min-height: 325px;
+}
+
+.graph
+{
+	background-color: #5089B0;
+	padding: 30px;
+}
+
+#viz1642609448167,#viz1642689761396,#viz1642689820231,#viz1642691174337,#viz1642691288257,#viz1642691320494
+{
+	width: 50%;
+	height: 50%;
+	margin:0px auto;
+	border:10px solid black;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.backtotop
+{
+	margin-top: 10px;
+	margin-left: 35vw;
+}
+#backtotop
+{
+	background:black;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criminaltics</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+	<div class="topnav" id="myTopnav">
+	  	<a href="#"><i class="fa fa-home"></i> Home</a>
+	  	<a href="#about">About Us</a>
+	  	<a href="#guidelines">Guidelines</a>
+	  	<a href="#features">Features</a>
+	  	<a href="#contact">Contact Us</a>
+	  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+	  	</a>
+	</div>
+
+	<div>
+		<h1 class="heading">CRIMINALTICS</h1>
+	</div>
+	
+	<div class="parallax" id="about"></div>
+	<div class="abt">
+		<h2>ABOUT US</h2>
+		<li>Our website is public-facing crime analytics and crime mapping service. </li>
+		<li>With the help of our webpage, it’s easier than ever to check crime anywhere in India.</li>
+		<li>Our main goal is to provide the most accurate and timely crime information to the people.</li>
+		<li>We display interactive charts for the users to find out where a particular crime has occurred more and take precautions accordingly.</li>
+		<li>Our website makes it simple to get crime data for each constituency.</li>	
+	</div>
+	
+
+	<div class="parallax" id="guidelines"></div>
+	<div class="guide_container" >
+		<h2>GUIDELINES</h2>
+		<span class="guide_cont">
+			<img src="guidelines.jpeg" class="guide_img">
+		</span>
+		<div class="contents">
+			<li>Red circle - FILTERS - Have options of various crimes. Select or Deselect the check boxes to compare one or more crimes.</li>
+			<li>Blue circle - ZOOM IN - Zooms the visualization plots to full screen size.</li>
+			<li>Orange circle - MEASURED NAMES - Select the colours to individually visualize the particular crime.</li>
+			<li>Yellow circle - HIGHLIGHTERS - A Search box where the searched parameter gets highlighted in the plot.</li>
+			<li>Violet circle - SHARE - Share button.</li>
+			<li>Black circle - Clicking on any part of the plot highlights the information present in that part.</li>
+		</div>
+	</div>
+
+	<div class="parallax"  id="features"></div>
+
+	<div class="events_container">
+		<h2>FEATURES</h2>
+
+		<div class="container">
+			<div class="card">
+				<figure class="card__thumb">
+					<img src="https://play-lh.googleusercontent.com/wzJGDXad9Jet8FBw7KfEC3JBEJWD07cTxM_I8g4urvHxR4cHMEnm8IT3keyley-Prw" class="card__image">
+
+					<figcaption class="card__caption">
+						<h3 class="card__title">CRIME MAPPING</h3>
+						<button class="card_click">CLICK HERE TO VIEW MORE</button>
+						<a href="#map" class="card__button">CLICK HERE</a>						
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="card">
+				<figure class="card__thumb">
+					<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Data_Visualization_Tools.jpg" class="card__image">
+					<figcaption class="card__caption">
+						<h3 class="card__title">VISUALIZATION</h3>
+						<button class="card_click">CLICK HERE TO VIEW MORE</button>
+						<a href="index1.html" class="card__button">CLICK HERE</a>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="card">
+				<figure class="card__thumb">
+					<img src="https://legalbodies.com/wp-content/uploads/2020/08/Legal-Bodies-Sectors-Pic-crime.jpg" class="card__image">
+					<figcaption class="card__caption">
+						<h3 class="card__title">CRIME PREDICTION</h3>
+						<button class="card_click">CLICK HERE TO VIEW MORE</button>
+						<a href="index2.html" class="card__button">CLICK HERE</a>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="parallax"></div>
+
+	<div class="graph" id="map">
+		<div class='tableauPlaceholder' id='viz1642703199555' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='INDIANSATELLITEMAP&#47;INDIANSATELLITEMAP' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1642703199555');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		<div class="backtotop">
+			<button class="pushable"> <a href="#features" style="text-decoration: none; "> <span class="front" id="backtotop"> BACK TO TOP </span> </a> </button>
+		</div>
+	</div>
+
+	<div class="parallax" id="contact"></div>
+
+	<div class="contact_container">
+		<div class="footer-1">
+			<h2>CONTACT US:</h2>
+			<div>
+				<i class="fas fa-map-marker-alt"></i>
+				<p>New No:1, Abc Flats, Abc Street, Chennai,TamilNadu.</p>
+				<br>
+			</div>
+			<div>
+				<i class="far fa-envelope"></i>
+				<p>gqcrimesolns@gmail.com</p>
+				<br>
+			</div>
+			<i class="far fa-phone-alt"></i>
+			<p>+91 9876543210</p>
+		</div>
+
+		
+		<div class="footer-3">
+			<h2>FOLLOW US ON:</h2>
+			<a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+			<a href="https://www.twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+			<a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a>
+			<br><br>
+			<span> &copy 2022 All Rights Reserved</span>
+		</div>
+		<br>
+		<div class="footer-section__external-links-section">
+      		<div class="app-download-column">
+				<a class="footer-app-link" href="#contact" rel="noreferrer">
+          			<img src="https://d2gd0no3pm9ozo.cloudfront.net/images/download-app-store-e84eea88e13eec6ffd58588c695f4b6c.svg?vsn=d" alt="App Store" class="imgg">
+				</a>
+				<br>
+				<br>
+				<a class="footer-app-link" href="#contact" rel="noreferrer">
+		         	<img src="https://d2gd0no3pm9ozo.cloudfront.net/images/download-google-play-fb1e4ce8c344bcc1f83891b5702d5b32.svg?vsn=d" alt="Google Play" class="imgg">
+				</a>
+      		</div>
+    	</div>
+  	</div>
+
+
+
+	<script>
+		function myFunction()
+		{
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+			x.className = "topnav";
+			}
+		}
+
+	</script>
+</body>
+</html>

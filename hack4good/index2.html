@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Criminaltics</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+	<div class="header">
+		<div class="menubtns">
+			<button class="pushable"> <a href="index.html" style="text-decoration:none;"> <div class="front" id="backtotop"><i class="fas fa-arrow-circle-left"></i>    HOME PAGE </div> </a> </button>
+		</div>
+	</div>
+
+	<div>
+		<h1 class="heading2">CRIME PREDICTION USING MACHINE LEARNING</h1>
+	</div>
+
+	<br><br><br><br><br><br><br>
+
+	<form class="check_const">
+		<h2>CRIME INTENSITY LEVEL IN YOUR AREA: </h2>
+		<span class="const">Constituency:  <input type="text" placeholder="Enter the Constituency" id="constt" onsubmit="checkconst()"></span> <br>
+		<span> <input type="button" name="btn" value="Check" onclick="checkconst()"> </span>
+	</form>
+
+	<script>
+		function checkconst(){
+			var x= constt.value
+			if(x=="New Delhi")
+				alert("Less Crime Prone Area.")
+			else if(x=="Haridwar")
+				alert("Moderate Crime Prone Area.")
+			else if(x=='Tirupati')
+				alert("High Crime Prone Area.")
+			else
+				alert("Check your Constituency.")
+		}
+	</script>
+	<div class="parallax"></div>
+
+	<div class="graph">
+		
+		<div class='tableauPlaceholder' id='viz1642676474282' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CRIMEPRONEANALYSIS&#47;CRIMEPRONEANALYSIS' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1642676474282');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+	</div>
+
+	<div class="parallax"></div>
+
+</body>
+</html>
